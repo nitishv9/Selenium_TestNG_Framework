@@ -15,13 +15,10 @@ public class LoginTest extends BaseTest{
 		Util.navigateLoginPage();
 		logger.info("Navigated to login page");
 		LoginPage page = new LoginPage(driver);
-		page.setUsername("tomsmith");
-		logger.info("Username added");
-		page.setPassword("SuperSecretPassword!");
-		logger.info("Password added");
-		page.clickLoginBtn();
-		logger.info("Clicked on login Button");
+		page.loginApplication("tomsmith", "SuperSecretPassword!");
+		logger.info("Valid User credentials added and clicked on login button");
 		String msg = page.getFlashMsg();
+		logger.info("Flash message extracted");
 		assert msg.contains("You logged into a secure area");
 		
 	}
@@ -30,14 +27,12 @@ public class LoginTest extends BaseTest{
 	public void invalidLogin() {
 		logger = extent.createTest("Verify login using invalid credentials");
 		Util.navigateLoginPage();
+		logger.info("Navigated to login page");
 		LoginPage page = new LoginPage(driver);
-		page.setUsername("tomsmith");
-		logger.info("Username added");
-		page.setPassword("invalid");
-		logger.info("Password added");
-		page.clickLoginBtn();
-		logger.info("Clicked on login Button");
+		page.loginApplication("tomsmith", "invalid");
+		logger.info("Invalid User credentials added and clicked on login button");
 		String msg = page.getFlashMsg();
+		logger.info("Flash message extracted");
 		assert msg.contains("Your password is invalid!");
 	}
 

@@ -41,5 +41,11 @@ public class LoginPage {
 	public String getFlashMsg() {
 		return flashMsg.getText();
 	}
+	
+	public void loginApplication(String username,String password) {
+		setUsername(username);
+		setPassword(password);
+		clickLoginBtn();
+	}
 
 }
