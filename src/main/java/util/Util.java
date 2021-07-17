@@ -1,5 +1,7 @@
 package util;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -16,10 +18,21 @@ public class Util {
     public static String reportFilepath = System.getProperty("user.dir") +fileSeperator+ "TestReport";
     public static String reportFileLocation =  reportFilepath +fileSeperator+ reportFileName;
     public static ExtentTest logger;
-    
+    protected static Logger log = LogManager.getLogger(Util.class);
     
 	public static void navigateLoginPage() {
 		driver.get(url);
+	}
+	
+	
+	public void initializeTest(String msg) {
+		logger = extent.createTest(msg);
+		log.info("Test Execution started: " + msg);
+	}
+	
+	public void write_log(String msg) {
+		log.info(msg);
+		logger.info(msg);
 	}
 	
 

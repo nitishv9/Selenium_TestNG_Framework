@@ -1,0 +1,12 @@
+[INFO ] 2021-07-17 11:36:25.400 [main] - Test Execution started: Verify login using invalid credentials
+[INFO ] 2021-07-17 11:36:29.705 [main] - Navigated to login page
+[INFO ] 2021-07-17 11:36:30.566 [main] - Invalid User credentials added and clicked on login button
+[INFO ] 2021-07-17 11:36:30.613 [main] - Flash message extracted
+[INFO ] 2021-07-17 11:36:31.376 [main] - TEST CASE PASSED:invalidLogin
+[INFO ] 2021-07-17 11:36:31.377 [main] - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO ] 2021-07-17 11:36:32.653 [main] - Test Execution started: Verify login using valid credentials
+[INFO ] 2021-07-17 11:36:37.307 [main] - Navigated to login page
+[INFO ] 2021-07-17 11:36:38.170 [main] - Valid User credentials added and clicked on login button
+[INFO ] 2021-07-17 11:36:38.218 [main] - Flash message extracted
+[INFO ] 2021-07-17 11:36:38.940 [main] - TEST CASE PASSED:validLogin
+[INFO ] 2021-07-17 11:36:38.941 [main] - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
