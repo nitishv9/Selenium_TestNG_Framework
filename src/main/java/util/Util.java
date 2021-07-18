@@ -1,7 +1,15 @@
 package util;
 
+import java.io.File;
+import org.apache.commons.io.FileUtils;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -33,6 +41,16 @@ public class Util {
 	public void write_log(String msg) {
 		log.info(msg);
 		logger.info(msg);
+	}
+	
+	public static String getScreenShot(WebDriver driver,String screenshotName) throws IOException {
+		String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+		TakesScreenshot ts = (TakesScreenshot) driver;
+		File source = ts.getScreenshotAs(OutputType.FILE);
+		String destination = projectDir + "/Current Screenshots/" + screenshotName + "_" + dateName + ".png";
+		File finalDestination = new File(destination);
+		FileUtils.copyFile(source, finalDestination);
+		return destination;
 	}
 	
 

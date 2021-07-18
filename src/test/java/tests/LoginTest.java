@@ -35,7 +35,7 @@ public class LoginTest extends BaseTest{
 		write_log("Invalid User credentials added and clicked on login button");
 		String msg = page.getFlashMsg();
 		write_log("Flash message extracted");
-		assert msg.contains("Your password is invalid!");
+		assert msg.contains("Your password is invalid!!");
 	}
 
 }
