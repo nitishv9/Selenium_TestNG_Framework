@@ -2,7 +2,6 @@ package tests;
 
 import java.io.IOException;
 
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -19,8 +18,7 @@ public class BaseTest extends Util {
 	@BeforeSuite
 	public void startTest() {
 		ExtentManager.createInstance();
-		System.setProperty("webdriver.chrome.driver", projectDir + "\\drivers\\chromedriver.exe");
-		driver = new ChromeDriver();
+		browserSetUp();
 	}
 	
 	@BeforeMethod

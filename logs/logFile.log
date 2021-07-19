@@ -22,3 +22,171 @@
 [INFO ] 2021-07-18 17:30:57.178 [main] - Flash message extracted
 [INFO ] 2021-07-18 17:30:57.181 [main] - TEST CASE PASSED:validLogin
 [INFO ] 2021-07-18 17:30:57.181 [main] - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO ] 2021-07-19 18:40:29.372 [main] - Test Execution started: Verify login using invalid credentials
+[INFO ] 2021-07-19 18:40:33.676 [main] - Navigated to login page
+[INFO ] 2021-07-19 18:40:34.732 [main] - Invalid User credentials added and clicked on login button
+[INFO ] 2021-07-19 18:40:34.774 [main] - Flash message extracted
+[INFO ] 2021-07-19 18:40:34.779 [main] - TEST CASE PASSED:invalidLogin
+[INFO ] 2021-07-19 18:40:34.780 [main] - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO ] 2021-07-19 18:40:34.782 [main] - Test Execution started: Verify login using valid credentials
+[INFO ] 2021-07-19 18:40:35.106 [main] - Navigated to login page
+[INFO ] 2021-07-19 18:40:35.890 [main] - Valid User credentials added and clicked on login button
+[INFO ] 2021-07-19 18:40:35.928 [main] - Flash message extracted
+[INFO ] 2021-07-19 18:40:35.930 [main] - TEST CASE PASSED:validLogin
+[INFO ] 2021-07-19 18:40:35.931 [main] - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO ] 2021-07-19 18:59:31.891 [main] - Test Execution started: Verify user should get 200 status code after clicking 200
+[INFO ] 2021-07-19 18:59:35.320 [main] - Navigated to Status Code page
+[INFO ] 2021-07-19 18:59:35.788 [main] - Clicked on 200 Button
+[INFO ] 2021-07-19 18:59:35.828 [main] - Output message extracted
+[INFO ] 2021-07-19 18:59:35.833 [main] - TEST CASE PASSED:statusCodeAs200
+[INFO ] 2021-07-19 18:59:35.833 [main] - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO ] 2021-07-19 18:59:35.836 [main] - Test Execution started: Verify user should get 404 status code after clicking 404
+[INFO ] 2021-07-19 18:59:36.164 [main] - Navigated to Status Code page
+[INFO ] 2021-07-19 18:59:36.548 [main] - Clicked on 404 Button
+[INFO ] 2021-07-19 18:59:36.587 [main] - Output message extracted
+[INFO ] 2021-07-19 18:59:36.589 [main] - TEST CASE PASSED:statusCodeAs404
+[INFO ] 2021-07-19 18:59:36.589 [main] - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO ] 2021-07-19 19:04:33.476 [main] - Test Execution started: Verify login using invalid credentials
+[INFO ] 2021-07-19 19:04:38.290 [main] - Navigated to login page
+[INFO ] 2021-07-19 19:04:39.171 [main] - Invalid User credentials added and clicked on login button
+[INFO ] 2021-07-19 19:04:39.209 [main] - Flash message extracted
+[INFO ] 2021-07-19 19:04:39.213 [main] - TEST CASE PASSED:invalidLogin
+[INFO ] 2021-07-19 19:04:39.213 [main] - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO ] 2021-07-19 19:04:39.216 [main] - Test Execution started: Verify login using valid credentials
+[INFO ] 2021-07-19 19:04:39.558 [main] - Navigated to login page
+[INFO ] 2021-07-19 19:04:40.670 [main] - Valid User credentials added and clicked on login button
+[INFO ] 2021-07-19 19:04:40.762 [main] - Flash message extracted
+[INFO ] 2021-07-19 19:04:40.772 [main] - TEST CASE PASSED:validLogin
+[INFO ] 2021-07-19 19:04:40.772 [main] - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO ] 2021-07-19 19:04:40.775 [main] - Test Execution started: Verify user should get 200 status code after clicking 200
+[INFO ] 2021-07-19 19:04:41.119 [main] - Navigated to Status Code page
+[INFO ] 2021-07-19 19:04:41.631 [main] - Clicked on 200 Button
+[INFO ] 2021-07-19 19:04:41.744 [main] - Output message extracted
+[INFO ] 2021-07-19 19:04:41.748 [main] - TEST CASE PASSED:statusCodeAs200
+[INFO ] 2021-07-19 19:04:41.748 [main] - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO ] 2021-07-19 19:04:41.758 [main] - Test Execution started: Verify user should get 301 status code after clicking 301
+[INFO ] 2021-07-19 19:04:42.093 [main] - Navigated to Status Code page
+[INFO ] 2021-07-19 19:04:42.674 [main] - Clicked on 301 Button
+[INFO ] 2021-07-19 19:04:42.716 [main] - Output message extracted
+[INFO ] 2021-07-19 19:04:42.717 [main] - TEST CASE PASSED:statusCodeAs301
+[INFO ] 2021-07-19 19:04:42.717 [main] - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO ] 2021-07-19 19:04:42.717 [main] - Test Execution started: Verify user should get 404 status code after clicking 404
+[INFO ] 2021-07-19 19:04:43.094 [main] - Navigated to Status Code page
+[INFO ] 2021-07-19 19:04:43.661 [main] - Clicked on 404 Button
+[INFO ] 2021-07-19 19:04:43.705 [main] - Output message extracted
+[INFO ] 2021-07-19 19:04:43.705 [main] - TEST CASE PASSED:statusCodeAs404
+[INFO ] 2021-07-19 19:04:43.705 [main] - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO ] 2021-07-19 19:04:43.705 [main] - Test Execution started: Verify user should get 500 status code after clicking 500
+[INFO ] 2021-07-19 19:04:44.152 [main] - Navigated to Status Code page
+[INFO ] 2021-07-19 19:04:44.701 [main] - Clicked on 500 Button
+[INFO ] 2021-07-19 19:04:44.786 [main] - Output message extracted
+[INFO ] 2021-07-19 19:04:44.794 [main] - TEST CASE PASSED:statusCodeAs500
+[INFO ] 2021-07-19 19:04:44.795 [main] - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO ] 2021-07-19 19:09:56.391 [main] - Test Execution started: Verify login using invalid credentials
+[INFO ] 2021-07-19 19:10:01.043 [main] - Navigated to login page
+[INFO ] 2021-07-19 19:10:01.899 [main] - Invalid User credentials added and clicked on login button
+[INFO ] 2021-07-19 19:10:01.942 [main] - Flash message extracted
+[INFO ] 2021-07-19 19:10:01.947 [main] - TEST CASE PASSED:invalidLogin
+[INFO ] 2021-07-19 19:10:01.947 [main] - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO ] 2021-07-19 19:10:01.950 [main] - Test Execution started: Verify login using valid credentials
+[INFO ] 2021-07-19 19:10:02.266 [main] - Navigated to login page
+[INFO ] 2021-07-19 19:10:03.329 [main] - Valid User credentials added and clicked on login button
+[INFO ] 2021-07-19 19:10:03.409 [main] - Flash message extracted
+[INFO ] 2021-07-19 19:10:03.417 [main] - TEST CASE PASSED:validLogin
+[INFO ] 2021-07-19 19:10:03.418 [main] - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO ] 2021-07-19 19:10:03.423 [main] - Test Execution started: Verify user should get 200 status code after clicking 200
+[INFO ] 2021-07-19 19:10:03.960 [main] - Navigated to Status Code page
+[INFO ] 2021-07-19 19:10:04.573 [main] - Clicked on 200 Button
+[INFO ] 2021-07-19 19:10:04.676 [main] - Output message extracted
+[INFO ] 2021-07-19 19:10:04.684 [main] - TEST CASE PASSED:statusCodeAs200
+[INFO ] 2021-07-19 19:10:04.686 [main] - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO ] 2021-07-19 19:10:04.691 [main] - Test Execution started: Verify user should get 301 status code after clicking 301
+[INFO ] 2021-07-19 19:10:05.098 [main] - Navigated to Status Code page
+[INFO ] 2021-07-19 19:10:05.558 [main] - Clicked on 301 Button
+[INFO ] 2021-07-19 19:10:05.590 [main] - Output message extracted
+[INFO ] 2021-07-19 19:10:05.593 [main] - TEST CASE PASSED:statusCodeAs301
+[INFO ] 2021-07-19 19:10:05.593 [main] - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO ] 2021-07-19 19:10:05.593 [main] - Test Execution started: Verify user should get 404 status code after clicking 404
+[INFO ] 2021-07-19 19:10:06.026 [main] - Navigated to Status Code page
+[INFO ] 2021-07-19 19:10:06.610 [main] - Clicked on 404 Button
+[INFO ] 2021-07-19 19:10:06.691 [main] - Output message extracted
+[INFO ] 2021-07-19 19:10:06.691 [main] - TEST CASE PASSED:statusCodeAs404
+[INFO ] 2021-07-19 19:10:06.699 [main] - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO ] 2021-07-19 19:10:06.699 [main] - Test Execution started: Verify user should get 500 status code after clicking 500
+[INFO ] 2021-07-19 19:10:07.209 [main] - Navigated to Status Code page
+[INFO ] 2021-07-19 19:10:07.782 [main] - Clicked on 500 Button
+[INFO ] 2021-07-19 19:10:07.846 [main] - Output message extracted
+[INFO ] 2021-07-19 19:10:07.850 [main] - TEST CASE PASSED:statusCodeAs500
+[INFO ] 2021-07-19 19:10:07.851 [main] - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO ] 2021-07-19 19:11:31.526 [main] - Test Execution started: Verify login using invalid credentials
+[INFO ] 2021-07-19 19:11:35.152 [main] - Navigated to login page
+[INFO ] 2021-07-19 19:11:36.050 [main] - Invalid User credentials added and clicked on login button
+[INFO ] 2021-07-19 19:11:36.094 [main] - Flash message extracted
+[INFO ] 2021-07-19 19:11:36.098 [main] - TEST CASE PASSED:invalidLogin
+[INFO ] 2021-07-19 19:11:36.098 [main] - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO ] 2021-07-19 19:11:36.103 [main] - Test Execution started: Verify login using valid credentials
+[INFO ] 2021-07-19 19:11:36.417 [main] - Navigated to login page
+[INFO ] 2021-07-19 19:11:37.286 [main] - Valid User credentials added and clicked on login button
+[INFO ] 2021-07-19 19:11:37.327 [main] - Flash message extracted
+[INFO ] 2021-07-19 19:11:37.332 [main] - TEST CASE PASSED:validLogin
+[INFO ] 2021-07-19 19:11:37.332 [main] - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO ] 2021-07-19 19:11:37.339 [main] - Test Execution started: Verify user should get 200 status code after clicking 200
+[INFO ] 2021-07-19 19:11:37.865 [main] - Navigated to Status Code page
+[INFO ] 2021-07-19 19:11:38.405 [main] - Clicked on 200 Button
+[INFO ] 2021-07-19 19:11:38.444 [main] - Output message extracted
+[INFO ] 2021-07-19 19:11:38.444 [main] - TEST CASE PASSED:statusCodeAs200
+[INFO ] 2021-07-19 19:11:38.444 [main] - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO ] 2021-07-19 19:11:38.452 [main] - Test Execution started: Verify user should get 301 status code after clicking 301
+[INFO ] 2021-07-19 19:11:38.916 [main] - Navigated to Status Code page
+[INFO ] 2021-07-19 19:11:39.574 [main] - Clicked on 301 Button
+[INFO ] 2021-07-19 19:11:39.665 [main] - Output message extracted
+[INFO ] 2021-07-19 19:11:39.670 [main] - TEST CASE PASSED:statusCodeAs301
+[INFO ] 2021-07-19 19:11:39.670 [main] - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO ] 2021-07-19 19:11:39.679 [main] - Test Execution started: Verify user should get 404 status code after clicking 404
+[INFO ] 2021-07-19 19:11:40.075 [main] - Navigated to Status Code page
+[INFO ] 2021-07-19 19:11:40.678 [main] - Clicked on 404 Button
+[INFO ] 2021-07-19 19:11:40.734 [main] - Output message extracted
+[INFO ] 2021-07-19 19:11:40.739 [main] - TEST CASE PASSED:statusCodeAs404
+[INFO ] 2021-07-19 19:11:40.740 [main] - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO ] 2021-07-19 19:11:40.742 [main] - Test Execution started: Verify user should get 500 status code after clicking 500
+[INFO ] 2021-07-19 19:11:41.198 [main] - Navigated to Status Code page
+[INFO ] 2021-07-19 19:11:41.704 [main] - Clicked on 500 Button
+[INFO ] 2021-07-19 19:11:41.749 [main] - Output message extracted
+[INFO ] 2021-07-19 19:11:41.752 [main] - TEST CASE PASSED:statusCodeAs500
+[INFO ] 2021-07-19 19:11:41.752 [main] - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO ] 2021-07-19 19:12:32.424 [main] - Test Execution started: Verify login using invalid credentials
+[INFO ] 2021-07-19 19:12:48.946 [main] - Navigated to login page
+[INFO ] 2021-07-19 19:12:50.706 [main] - Invalid User credentials added and clicked on login button
+[INFO ] 2021-07-19 19:12:50.744 [main] - Flash message extracted
+[INFO ] 2021-07-19 19:12:50.747 [main] - TEST CASE PASSED:invalidLogin
+[INFO ] 2021-07-19 19:12:50.749 [main] - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO ] 2021-07-19 19:12:50.752 [main] - Test Execution started: Verify login using valid credentials
+[INFO ] 2021-07-19 19:12:51.091 [main] - Navigated to login page
+[INFO ] 2021-07-19 19:12:52.495 [main] - Valid User credentials added and clicked on login button
+[INFO ] 2021-07-19 19:12:52.546 [main] - Flash message extracted
+[INFO ] 2021-07-19 19:12:52.549 [main] - TEST CASE PASSED:validLogin
+[INFO ] 2021-07-19 19:12:52.550 [main] - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO ] 2021-07-19 19:12:52.554 [main] - Test Execution started: Verify user should get 200 status code after clicking 200
+[INFO ] 2021-07-19 19:12:52.874 [main] - Navigated to Status Code page
+[INFO ] 2021-07-19 19:12:53.230 [main] - Clicked on 200 Button
+[INFO ] 2021-07-19 19:12:53.284 [main] - Output message extracted
+[INFO ] 2021-07-19 19:12:53.287 [main] - TEST CASE PASSED:statusCodeAs200
+[INFO ] 2021-07-19 19:12:53.287 [main] - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO ] 2021-07-19 19:12:53.291 [main] - Test Execution started: Verify user should get 301 status code after clicking 301
+[INFO ] 2021-07-19 19:12:53.616 [main] - Navigated to Status Code page
+[INFO ] 2021-07-19 19:12:54.028 [main] - Clicked on 301 Button
+[INFO ] 2021-07-19 19:12:54.076 [main] - Output message extracted
+[INFO ] 2021-07-19 19:12:54.078 [main] - TEST CASE PASSED:statusCodeAs301
+[INFO ] 2021-07-19 19:12:54.079 [main] - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO ] 2021-07-19 19:12:54.081 [main] - Test Execution started: Verify user should get 404 status code after clicking 404
+[INFO ] 2021-07-19 19:12:54.445 [main] - Navigated to Status Code page
+[INFO ] 2021-07-19 19:12:54.863 [main] - Clicked on 404 Button
+[INFO ] 2021-07-19 19:12:54.916 [main] - Output message extracted
+[INFO ] 2021-07-19 19:12:54.919 [main] - TEST CASE PASSED:statusCodeAs404
+[INFO ] 2021-07-19 19:12:54.919 [main] - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO ] 2021-07-19 19:12:54.922 [main] - Test Execution started: Verify user should get 500 status code after clicking 500
+[INFO ] 2021-07-19 19:12:55.298 [main] - Navigated to Status Code page
+[INFO ] 2021-07-19 19:12:55.702 [main] - Clicked on 500 Button
+[INFO ] 2021-07-19 19:12:55.728 [main] - Output message extracted
+[INFO ] 2021-07-19 19:12:55.729 [main] - TEST CASE PASSED:statusCodeAs500
+[INFO ] 2021-07-19 19:12:55.729 [main] - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
