@@ -2,129 +2,129 @@
 <testng-results skipped="0" failed="0" ignored="2" total="8" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="HeroKu test Suite" duration-ms="23344" started-at="2021-07-19T13:42:32Z" finished-at="2021-07-19T13:42:55Z">
+  <suite name="HeroKu test Suite" duration-ms="13620" started-at="2021-07-20T13:12:33Z" finished-at="2021-07-20T13:12:47Z">
     <groups>
     </groups>
-    <test name="Login Test" duration-ms="23344" started-at="2021-07-19T13:42:32Z" finished-at="2021-07-19T13:42:55Z">
+    <test name="Login Test" duration-ms="13620" started-at="2021-07-20T13:12:33Z" finished-at="2021-07-20T13:12:47Z">
       <class name="tests.LoginTest">
-        <test-method status="PASS" signature="startTest()[pri:0, instance:tests.LoginTest@459e9125]" name="startTest" is-config="true" duration-ms="2798" started-at="2021-07-19T13:42:29Z" finished-at="2021-07-19T13:42:32Z">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:tests.LoginTest@7cc0cdad]" name="startTest" is-config="true" duration-ms="6327" started-at="2021-07-20T13:12:27Z" finished-at="2021-07-20T13:12:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.LoginTest@459e9125]" name="setUp" is-config="true" duration-ms="0" started-at="2021-07-19T13:42:32Z" finished-at="2021-07-19T13:42:32Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.LoginTest@7cc0cdad]" name="setUp" is-config="true" duration-ms="1" started-at="2021-07-20T13:12:33Z" finished-at="2021-07-20T13:12:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="invalidLogin()[pri:0, instance:tests.LoginTest@459e9125]" name="invalidLogin" duration-ms="18333" started-at="2021-07-19T13:42:32Z" finished-at="2021-07-19T13:42:50Z">
+        <test-method status="PASS" signature="invalidLogin()[pri:0, instance:tests.LoginTest@7cc0cdad]" name="invalidLogin" duration-ms="6461" started-at="2021-07-20T13:12:33Z" finished-at="2021-07-20T13:12:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLogin -->
-        <test-method status="PASS" signature="endReport(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@459e9125]" name="endReport" is-config="true" duration-ms="3" started-at="2021-07-19T13:42:50Z" finished-at="2021-07-19T13:42:50Z">
+        <test-method status="PASS" signature="endReport(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@7cc0cdad]" name="endReport" is-config="true" duration-ms="6" started-at="2021-07-20T13:12:39Z" finished-at="2021-07-20T13:12:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=invalidLogin status=SUCCESS method=LoginTest.invalidLogin()[pri:0, instance:tests.LoginTest@459e9125] output={null}]]]>
+                <![CDATA[[TestResult name=invalidLogin status=SUCCESS method=LoginTest.invalidLogin()[pri:0, instance:tests.LoginTest@7cc0cdad] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.LoginTest@459e9125]" name="setUp" is-config="true" duration-ms="0" started-at="2021-07-19T13:42:50Z" finished-at="2021-07-19T13:42:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validLogin()[pri:0, instance:tests.LoginTest@459e9125]" name="validLogin" duration-ms="1797" started-at="2021-07-19T13:42:50Z" finished-at="2021-07-19T13:42:52Z">
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:tests.LoginTest@7cc0cdad]" name="validLogin" duration-ms="2385" started-at="2021-07-20T13:12:40Z" finished-at="2021-07-20T13:12:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method status="PASS" signature="endReport(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@459e9125]" name="endReport" is-config="true" duration-ms="1" started-at="2021-07-19T13:42:52Z" finished-at="2021-07-19T13:42:52Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.LoginTest@7cc0cdad]" name="setUp" is-config="true" duration-ms="0" started-at="2021-07-20T13:12:40Z" finished-at="2021-07-20T13:12:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="endReport(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@7cc0cdad]" name="endReport" is-config="true" duration-ms="1" started-at="2021-07-20T13:12:42Z" finished-at="2021-07-20T13:12:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validLogin status=SUCCESS method=LoginTest.validLogin()[pri:0, instance:tests.LoginTest@459e9125] output={null}]]]>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=LoginTest.validLogin()[pri:0, instance:tests.LoginTest@7cc0cdad] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:tests.LoginTest@459e9125]" name="endTest" is-config="true" duration-ms="830" started-at="2021-07-19T13:42:55Z" finished-at="2021-07-19T13:42:56Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:tests.LoginTest@7cc0cdad]" name="endTest" is-config="true" duration-ms="714" started-at="2021-07-20T13:12:47Z" finished-at="2021-07-20T13:12:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
       </class> <!-- tests.LoginTest -->
       <class name="tests.StatusCodeTest">
-        <test-method status="PASS" signature="statusCodeAs200()[pri:0, instance:tests.StatusCodeTest@128d2484]" name="statusCodeAs200" duration-ms="732" started-at="2021-07-19T13:42:52Z" finished-at="2021-07-19T13:42:53Z">
+        <test-method status="PASS" signature="statusCodeAs200()[pri:0, instance:tests.StatusCodeTest@7c7b252e]" name="statusCodeAs200" duration-ms="1193" started-at="2021-07-20T13:12:42Z" finished-at="2021-07-20T13:12:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- statusCodeAs200 -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.StatusCodeTest@128d2484]" name="setUp" is-config="true" duration-ms="0" started-at="2021-07-19T13:42:52Z" finished-at="2021-07-19T13:42:52Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.StatusCodeTest@7c7b252e]" name="setUp" is-config="true" duration-ms="0" started-at="2021-07-20T13:12:42Z" finished-at="2021-07-20T13:12:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="endReport(org.testng.ITestResult)[pri:0, instance:tests.StatusCodeTest@128d2484]" name="endReport" is-config="true" duration-ms="2" started-at="2021-07-19T13:42:53Z" finished-at="2021-07-19T13:42:53Z">
+        <test-method status="PASS" signature="endReport(org.testng.ITestResult)[pri:0, instance:tests.StatusCodeTest@7c7b252e]" name="endReport" is-config="true" duration-ms="0" started-at="2021-07-20T13:12:43Z" finished-at="2021-07-20T13:12:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=statusCodeAs200 status=SUCCESS method=StatusCodeTest.statusCodeAs200()[pri:0, instance:tests.StatusCodeTest@128d2484] output={null}]]]>
+                <![CDATA[[TestResult name=statusCodeAs200 status=SUCCESS method=StatusCodeTest.statusCodeAs200()[pri:0, instance:tests.StatusCodeTest@7c7b252e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.StatusCodeTest@128d2484]" name="setUp" is-config="true" duration-ms="1" started-at="2021-07-19T13:42:53Z" finished-at="2021-07-19T13:42:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="statusCodeAs301()[pri:0, instance:tests.StatusCodeTest@128d2484]" name="statusCodeAs301" duration-ms="788" started-at="2021-07-19T13:42:53Z" finished-at="2021-07-19T13:42:54Z">
+        <test-method status="PASS" signature="statusCodeAs301()[pri:0, instance:tests.StatusCodeTest@7c7b252e]" name="statusCodeAs301" duration-ms="1167" started-at="2021-07-20T13:12:43Z" finished-at="2021-07-20T13:12:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- statusCodeAs301 -->
-        <test-method status="PASS" signature="endReport(org.testng.ITestResult)[pri:0, instance:tests.StatusCodeTest@128d2484]" name="endReport" is-config="true" duration-ms="1" started-at="2021-07-19T13:42:54Z" finished-at="2021-07-19T13:42:54Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.StatusCodeTest@7c7b252e]" name="setUp" is-config="true" duration-ms="0" started-at="2021-07-20T13:12:43Z" finished-at="2021-07-20T13:12:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="endReport(org.testng.ITestResult)[pri:0, instance:tests.StatusCodeTest@7c7b252e]" name="endReport" is-config="true" duration-ms="1" started-at="2021-07-20T13:12:44Z" finished-at="2021-07-20T13:12:44Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=statusCodeAs301 status=SUCCESS method=StatusCodeTest.statusCodeAs301()[pri:0, instance:tests.StatusCodeTest@128d2484] output={null}]]]>
+                <![CDATA[[TestResult name=statusCodeAs301 status=SUCCESS method=StatusCodeTest.statusCodeAs301()[pri:0, instance:tests.StatusCodeTest@7c7b252e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.StatusCodeTest@128d2484]" name="setUp" is-config="true" duration-ms="1" started-at="2021-07-19T13:42:54Z" finished-at="2021-07-19T13:42:54Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.StatusCodeTest@7c7b252e]" name="setUp" is-config="true" duration-ms="0" started-at="2021-07-20T13:12:44Z" finished-at="2021-07-20T13:12:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="statusCodeAs404()[pri:0, instance:tests.StatusCodeTest@128d2484]" name="statusCodeAs404" duration-ms="836" started-at="2021-07-19T13:42:54Z" finished-at="2021-07-19T13:42:54Z">
+        <test-method status="PASS" signature="statusCodeAs404()[pri:0, instance:tests.StatusCodeTest@7c7b252e]" name="statusCodeAs404" duration-ms="1165" started-at="2021-07-20T13:12:44Z" finished-at="2021-07-20T13:12:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- statusCodeAs404 -->
-        <test-method status="PASS" signature="endReport(org.testng.ITestResult)[pri:0, instance:tests.StatusCodeTest@128d2484]" name="endReport" is-config="true" duration-ms="2" started-at="2021-07-19T13:42:54Z" finished-at="2021-07-19T13:42:54Z">
+        <test-method status="PASS" signature="endReport(org.testng.ITestResult)[pri:0, instance:tests.StatusCodeTest@7c7b252e]" name="endReport" is-config="true" duration-ms="2" started-at="2021-07-20T13:12:45Z" finished-at="2021-07-20T13:12:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=statusCodeAs404 status=SUCCESS method=StatusCodeTest.statusCodeAs404()[pri:0, instance:tests.StatusCodeTest@128d2484] output={null}]]]>
+                <![CDATA[[TestResult name=statusCodeAs404 status=SUCCESS method=StatusCodeTest.statusCodeAs404()[pri:0, instance:tests.StatusCodeTest@7c7b252e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-        <test-method status="PASS" signature="statusCodeAs500()[pri:0, instance:tests.StatusCodeTest@128d2484]" name="statusCodeAs500" duration-ms="808" started-at="2021-07-19T13:42:54Z" finished-at="2021-07-19T13:42:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- statusCodeAs500 -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.StatusCodeTest@128d2484]" name="setUp" is-config="true" duration-ms="0" started-at="2021-07-19T13:42:54Z" finished-at="2021-07-19T13:42:54Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.StatusCodeTest@7c7b252e]" name="setUp" is-config="true" duration-ms="0" started-at="2021-07-20T13:12:45Z" finished-at="2021-07-20T13:12:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="endReport(org.testng.ITestResult)[pri:0, instance:tests.StatusCodeTest@128d2484]" name="endReport" is-config="true" duration-ms="0" started-at="2021-07-19T13:42:55Z" finished-at="2021-07-19T13:42:55Z">
+        <test-method status="PASS" signature="statusCodeAs500()[pri:0, instance:tests.StatusCodeTest@7c7b252e]" name="statusCodeAs500" duration-ms="1176" started-at="2021-07-20T13:12:45Z" finished-at="2021-07-20T13:12:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statusCodeAs500 -->
+        <test-method status="PASS" signature="endReport(org.testng.ITestResult)[pri:0, instance:tests.StatusCodeTest@7c7b252e]" name="endReport" is-config="true" duration-ms="1" started-at="2021-07-20T13:12:47Z" finished-at="2021-07-20T13:12:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=statusCodeAs500 status=SUCCESS method=StatusCodeTest.statusCodeAs500()[pri:0, instance:tests.StatusCodeTest@128d2484] output={null}]]]>
+                <![CDATA[[TestResult name=statusCodeAs500 status=SUCCESS method=StatusCodeTest.statusCodeAs500()[pri:0, instance:tests.StatusCodeTest@7c7b252e] output={null}]]]>
               </value>
             </param>
           </params>

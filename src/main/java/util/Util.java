@@ -3,6 +3,8 @@ package util;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Properties;
@@ -15,6 +17,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -23,6 +26,7 @@ public class Util {
 	
 	public static String projectDir= System.getProperty("user.dir");
 	public static WebDriver driver;
+	public static RemoteWebDriver remoteDriver;
 	public static String configPropFile = "./src/main/resources/config.properties";
 	public static ExtentReports extent;
     public static String reportFileName = "Test-Automaton-Report"+".html";
@@ -31,15 +35,25 @@ public class Util {
     public static String reportFileLocation =  reportFilepath +fileSeperator+ reportFileName;
     public static ExtentTest logger;
     protected static Logger log = LogManager.getLogger(Util.class);
+    public static String remote_url_chrome = "http://localhost:4445/wd/hub";
     
     public static void browserSetUp() {
-    	System.setProperty("webdriver.chrome.driver", projectDir + "\\drivers\\chromedriver.exe");
-    	if(getProp("headless").toLowerCase().equals("true")) {
+    	if(getProp("browser").toLowerCase().equals("remote")) {
     		ChromeOptions options = new ChromeOptions();
-    		options.addArguments("--headless");
-    		driver = new ChromeDriver(options);
+    		try {
+				driver = new RemoteWebDriver(new URL(remote_url_chrome), options);
+			} catch (MalformedURLException e) {
+				e.printStackTrace();
+			}
     	}
+    	//System.setProperty("webdriver.chrome.driver", projectDir + "\\drivers\\chromedriver.exe");
+//    	if(getProp("headless").toLowerCase().equals("true")) {
+//    		ChromeOptions options = new ChromeOptions();
+//    		options.addArguments("--headless");
+//    		driver = new ChromeDriver(options);
+//    	}
     	else {
+    		System.setProperty("webdriver.chrome.driver", projectDir + "\\drivers\\chromedriver.exe");
     		driver = new ChromeDriver();
     	}
     	driver.manage().window().maximize();
