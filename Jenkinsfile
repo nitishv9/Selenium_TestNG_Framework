@@ -18,6 +18,12 @@ pipeline {
 			        echo "Was not able to stop the chrome container, will continue."
 			    } 
 			    
+			    try{
+			        bat "docker rm chrome_container"
+                }catch(error){
+                    echo "Was not able to remove the chrome container, will continue."
+                 }
+			    
                 bat "docker run -d --name chrome_container -p 4445:4444 selenium/standalone-chrome"
                 echo "Chrome container started"
                 
