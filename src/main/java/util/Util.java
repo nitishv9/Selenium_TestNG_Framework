@@ -17,6 +17,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -36,12 +37,21 @@ public class Util {
     public static ExtentTest logger;
     protected static Logger log = LogManager.getLogger(Util.class);
     public static String remote_url_chrome = "http://localhost:4445/wd/hub";
+    public static String remote_url_firefox = "http://localhost:4446/wd/hub";
     
     public static void browserSetUp() {
-    	if(getProp("browser").toLowerCase().equals("remote")) {
+    	if(getProp("browser").toLowerCase().equals("chrome")) {
     		ChromeOptions options = new ChromeOptions();
     		try {
 				driver = new RemoteWebDriver(new URL(remote_url_chrome), options);
+			} catch (MalformedURLException e) {
+				e.printStackTrace();
+			}
+    	}
+    	else if(getProp("browser").toLowerCase().equals("firefox")) {
+    		FirefoxOptions options = new FirefoxOptions();
+    		try {
+				driver = new RemoteWebDriver(new URL(remote_url_firefox), options);
 			} catch (MalformedURLException e) {
 				e.printStackTrace();
 			}

@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [HeroKu test Suite]">
-  <test thread-count="5" name="Login Test(failed)">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [HeroKu test Suite]" parallel="methods">
+  <test thread-count="2" name="Login Test(failed)" parallel="methods">
     <classes>
       <class name="tests.LoginTest">
         <methods>
           <include name="endReport"/>
+          <include name="validLogin"/>
           <include name="startTest"/>
           <include name="endTest"/>
           <include name="invalidLogin"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- tests.LoginTest -->
+      <class name="tests.StatusCodeTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="startTest"/>
+          <include name="statusCodeAs500"/>
+          <include name="endTest"/>
+          <include name="statusCodeAs301"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.StatusCodeTest -->
     </classes>
   </test> <!-- Login Test(failed) -->
 </suite> <!-- Failed suite [HeroKu test Suite] -->
